@@ -33,6 +33,7 @@ namespace IntroToOOP
         //Methods-Repeatable, Reusable sections of code
         //Constructors- specialized methods that are used when instantiating an object
         //You can have as many properties as you need/want as long as each of them has a unique signature
+        //By signature I mean the parameters in the parenthesis after the constructor name.
         public Cat()
         {
             //This is an example of a default constructor
@@ -43,6 +44,11 @@ namespace IntroToOOP
             this.name = name;
             this.age = age;
             this.furColor = furColor;
+        }
+        public Cat(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
         }
         //whatever is passed in for name- set the same they provide set equal to the fields
         //allow us to control the state of the object upon creation

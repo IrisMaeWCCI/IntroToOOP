@@ -23,11 +23,24 @@ namespace IntroToOOP
             //Thinking about objects in real life, create(either hand handwrite or type)
             //3 examples of objects should have 5 states characteristics and 5 behviours
 
-            Employee Angelo = new Employee();//busy, focused, at lunch, working, is on phone
-            Pie Apple = new Pie();//being baked, being made, being eaten, thrown away, being cut
-            FamilyMember Son = new MemberFamily();//helpful, kind, calls, gives gifts, cleans, 
+            // Employee Angelo = new Employee();//busy, focused, at lunch, working, is on phone
+            //Pie Apple = new Pie();//being baked, being made, being eaten, thrown away, being cut
+            // FamilyMember Son = new MemberFamily();//helpful, kind, calls, gives gifts, cleans, 
             //states and behaviours of a class or states and behaviours of a specific object
+            mittens.Name = "Mittens";
+            Console.WriteLine(mittens.Age);
+            Cat firstCat = new Cat();
+            firstCat.Name = "Mittens";
+            Console.WriteLine(firstCat.Age);
 
+            Cat secondCat = new Cat("Oz", 3, "Orange and white");
+            secondCat.Name = "Ozzy";
+            Console.WriteLine(secondCat.Name);
+            Console.WriteLine(secondCat.Age);
+            secondCat.Eat();
+            //call means I'm going to use a method methods created insdie fo a class have to be connected to an object instide of a class 
+
+            Dog firstDog = new Dog("Long", "50cm", "5mph", "50 lbs");
         }
     }
 }
