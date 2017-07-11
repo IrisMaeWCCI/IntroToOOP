@@ -40,7 +40,7 @@ namespace IntroToOOP
             get { return this.weight; }
             set { this.weight = value; }
         }
-        public Dog(string hairLength, string height, string runningSpeed, string weight)
+        public Dog(string hairLength, int height, int runningSpeed, double weight)
         {
             this.hairLength = hairLength;
             this.height = height;
@@ -72,11 +72,12 @@ namespace IntroToOOP
                 Console.WriteLine("Your dog has to relieve itself");
                 weight += 1.0;
             }
-            return weight;}
+            return;}
+
         public void Cuddle()
         {
-            Console.WriteLine("Aww doggy is so ");
+            Console.WriteLine("Aww doggy is so sweet");
         }
-        }
+        
     }
 }
