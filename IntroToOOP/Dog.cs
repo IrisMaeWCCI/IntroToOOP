@@ -72,10 +72,10 @@ namespace IntroToOOP
                 Console.WriteLine("Your dog has to relieve itself");
                 weight += 1.0;
             }
-            return weight;
+            return weight;}
         public void Cuddle()
         {
-            Console.WriteLine("Aww doggy is so sweet");
+            Console.WriteLine("Aww doggy is so ");
         }
         }
     }

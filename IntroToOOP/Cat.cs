@@ -18,6 +18,7 @@ namespace IntroToOOP
         private int age;
         private string furColor;
         private bool isHungry = true;
+        private bool crap = true;
         //Properties - hybrid between a field and method
         public string Name
         {
